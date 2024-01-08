@@ -61,7 +61,7 @@ img {
 /*  */
 
 .logo {
-   padding-right: 76px;
+   margin-right: 76px;
    color: #4d5ae5;
    font-family: Raleway, sans-serif;
    font-size: 18px;
@@ -98,9 +98,6 @@ img {
 .nav {
    display: flex;
    align-items: center;
-}
-
-.logo-header {
 }
 
 .nav-list {
@@ -310,6 +307,7 @@ img {
    justify-content: center;
    padding: 32px 16px;
    border: 1px solid #e7e9fc;
+   border-top: none;
    background: #fff;
 }
 
@@ -341,8 +339,11 @@ img {
    flex-direction: column;
 }
 
-.logo-footer {
+.footer a {
    display: inline-block;
+}
+
+.logo-footer {
    margin-bottom: 16px;
 }
 
