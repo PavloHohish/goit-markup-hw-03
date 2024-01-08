@@ -299,8 +299,6 @@ img {
 .portfolio-list-item {
    display: flex;
    flex-direction: column;
-   gap: 32px;
-   padding-bottom: 32px;
    width: calc((100% - 24px * 2) / 3);
    background: #fff;
 }
@@ -312,6 +310,7 @@ img {
    justify-content: center;
    padding: 32px 16px;
    border: 1px solid #e7e9fc;
+   background: #fff;
 }
 
 .portfolio-li-title {
